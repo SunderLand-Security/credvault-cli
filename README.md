@@ -6,7 +6,11 @@ Professional credential management for red-team operations. Encrypted at rest, d
 
 Install:  
 ```bash
-pip install credvault
+pip install git+https://github.com/SunderLand-Security/credvault-cli
+
+# Or with pipx
+
+pipx install git+https://github.com/SunderLand-Security/credvault-cli
 ```
 
 Initialize:  
@@ -147,3 +151,4 @@ export <file.age>                 — encrypted backup
 verify                            — integrity check
 importer --from <tool> <file>     — import credentials
 ```
+
